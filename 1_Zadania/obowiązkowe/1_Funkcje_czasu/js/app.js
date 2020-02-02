@@ -8,4 +8,5 @@ function countHello(number) {
 
 }
 
-countHello(3);
+const number = 10;
+countHello(number);
