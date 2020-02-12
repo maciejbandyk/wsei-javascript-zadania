@@ -5,28 +5,28 @@
  */
 
 
-//Twoj komentarz ...
+//Zdefiniowanie funkcji "jeden"
 function jeden() {
 
-    //Twoj komentarz ...
+    //Zdefiniowanie zmiennej "zmienna1"
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    //Zdefiniowanie funkcji "dwa"
     function dwa() {
 
-        //Twoj komentarz ...
+        //Wyświetlenie zmiennej "zmienna1"
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        //Zadeklarowanie zmiennej "zmienna2" wewnątrz "scope'u" funkcji dwa
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    //Wywołanie funkcji "dwa"
     dwa();
 
-    //Twoj komentarz ...
+    //Próba wyświetlenia zmiennej "zmienna2", gdzie nie ma możliwości dostania się do wewnętrznego "scope'u" funkcji "dwa"
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
+//Wywołanie funkcji "jeden"
 jeden()
